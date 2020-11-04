@@ -6,6 +6,8 @@
     justify-content: space-between;   
     border-bottom: 1px solid #F0B429;
     box-shadow: 5px 0 10px rgba(red, green, blue, alpha);
+    background-color: white;
+    margin: 0;
     
 }
 .head{
@@ -18,18 +20,18 @@
 }
 .Titulo{   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-right: 600px;
+    margin-right: 500px;
 }
 .Menu{
     background-color: #005883;
-    height: 75px;
+    height: 80px;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #F0B429;
     box-shadow: 5px 0 10px rgba(red, green, blue, alpha);      
-  
+    
     
 }
 .items_menu{
@@ -132,13 +134,18 @@
 
 /* SELECTORES */
 
-.cont_select{
+.contenido_secciones{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 30px;
-    padding-top: 100px;
+    padding-top: 200px;
     
 }
 .img_select{
     padding: 20px;   
 }
-
+p{
+    color: #333333;
+}
+/* h2{
+    color: #005883;
+} */

@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <header>
-        <nav class="Encabezado">
+    <header class="head">
+
+        <div class="Encabezado">
             <label class="logo"><a href="index.html"><img src="logo_normal.png" alt=""></a></label>
-            <h1 class="Titulo">CSS3: Estilos internos y Externos,Selectores CSS</h1> 
+            <h1 class="Titulo">Estilos</h1> 
             
-        </nav>
-        
+        </div>       
     
 
         <nav class="Menu">
@@ -49,6 +49,74 @@
             
         </nav>
     </header>
+
+    <div class="contenido_secciones">
+        <p>
+            En esta sección hablaremos de cada una de las formas con las que podemos agregar código CSS <br>
+            a un documento HTML; Própiamente nos vamos a referir a los lugares en donde puede estar éste alojado. <br>
+            Para ello hablaremos de tres maneras o ubicaciones en específico inline, interno y externo.
+        </p>
+        <h2>Inline</h2>
+        <P>
+            Se llama de esta forma cuando ponemos el código CSS dentro de la etiqueta HTML  <br>
+            que queremos estilizar.  Se agrega dentro de la etiqueta la palabra Style = “” y <br>
+            dentro de las comillas se ingresan cada una de las propiedades separadas por punto <br>
+             y coma (;) entre ellas. <br>
+            <br>
+            Ejemplo:             
+        </P>
+        <picture class="img_select">
+            <img src="imagenes/inline.png" alt="Selector etiqueta">                 
+        </picture>
+        <p>
+            Cabe anotar que este estilo es poco utilizado y si se hace es en algunas excepciones, <br>
+            y en estructuras sencillas de HTML.
+        </p>
+        <br>
+        <h2>Interno</h2>
+        <P>
+            Para este caso en lugar de colocar los estilos dentro de cada etiqueta, éstos se colocan <br>
+            en un bloque aparte pero dentro de la etiqueta head, con la siguiente estructura:
+        </P>
+        <picture class="img_select">
+            <img src="imagenes/interno_1.png" alt="Selector etiqueta">                 
+        </picture>
+        <p>
+            En cuyo cuerpo dentro de la etiqueta style se seleccionarán cada una de las etiquetas <br>
+            y propiedades a aplicar.
+            En el siguiente ejemplo se están seleccionando las etiquetas “body” y “h1” dentro de  <br>
+            las cuales se están aplicando las propiedades y sus valores.
+        </p>
+        <picture class="img_select">
+            <img src="imagenes/interno_2.png" alt="Selector etiqueta">                 
+        </picture>
+
+        <br>
+        <br>
+    
+        <h2>Externo</h2>
+        <P>           
+           Este estilo es el mas recomendado, puesto que lo que se hace es crear un archivo .css aparte en <br>
+           el que se alojará la totalidad del código que dará estilo a la página.  De esta manera el documento <br>
+           HTML únicamente alojará la estructura y código de este tipo y no se mezclará con los estilos. <br>
+           Para lograr esto se crea un archivo nuevo con la extensión .css y con su respectivo nombre, <br>
+           seguido  de esto dentro del documento HTML debemos enlazar este archivo utilizando la etiqueta <br>
+           link con la siguiente estructura, en donde "nombre_archivo.css" hace referencia al nombre del archivo <br>
+           que hemos creado para alojar el código CSS.
+        </P>
+        <picture class="img_select">
+            <img src="imagenes/externo_1.png" alt="Selector etiqueta">                 
+        </picture>
+        <p>
+            Luego dentro del archivo .CSS se utilizarán los diferentes selectores, que explicaremos en la <br>
+            sección de selectores lo cual para cada estilo traerá una estructura similar a la siguiente imagen
+        </p>
+        <picture class="img_select">
+            <img src="imagenes/externo_2.png" alt="Selector etiqueta">                 
+        </picture>
+
+
+    </div>
     
 </body>
 </html>
