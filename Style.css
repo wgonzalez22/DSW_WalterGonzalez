@@ -39,8 +39,7 @@
     list-style: none;
     margin-left: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
-    z-index: 1; 
-        
+    z-index: 1;        
 }
 .items_menu li{
     border-radius: 3px;
@@ -149,3 +148,12 @@ p{
 /* h2{
     color: #005883;
 } */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header h1{
+    color: #F0B429;
+}
