@@ -56,7 +56,7 @@
 .items_menu li a{
     padding: 7px 13px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     display: block;
     
     color:  #F47920;
@@ -175,7 +175,18 @@ h2{
 }
 
 .video{
-    margin-left: 100px;
+    padding-left: 90px;
+    padding-top: 200px;
+   
+    
+}
+.Evaluacion{
+    padding-top: 150px;
+}
+#titulo_evaluacion{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+
 }
 
 .autor{    
@@ -220,4 +231,9 @@ footer{
 
 .footer_autoev{
     margin-top: 26%;
+}
+.aside{
+    width: 35%;
+    float: right;
+    
 }
